@@ -1,0 +1,38 @@
+---
+title: "PDB Assignment"
+author: "Mahdi Robbani"
+date: "December 2, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+#Protein
+Based on my name, I selected a protein complex with a PDB ID of 1HDI. This protein complex consists of a 3-Phospgogylerate kinase from Pig muscle complexed with 3-Phosphoglueric acid (3PG), an Adenosine Monophosphate (AMP) and a Magnesium ion. 3-phosphoglycerate kinase (PGK) is a typical kinase with two structural domains, and each domain binds to one of the two substrates , 3-phosphoglycerate (3-PG) and MgATP. For the phospho-transfer reaction to take place the substrates must be brought closer by a hinge-bending domain closure.
+
+#Structure
+- **Biology:** 3-phosphoglycerate kinase (PGK) is a typical kinase with two structural domains. The domains each bind one of the two substrates, 3-phosphoglycerate (3-PG) and MgATP
+- **Ligands:** 
+    - 3-phosphoglycerate (3-PG)
+    - Adenosine Monophosphate (AMP)
+    - Magnesium Ion (MG)
+- **Experimental methods:** X-ray diffraction was used to identify the structure of the protein complex. 
+
+#Structure quality
+- **Resoluton:** 1.8A. This resolution is acceptable.
+- **Free R-value:** 0.262. This R value is not very good but it is still acceptable.
+- **B factor:** None as EDS was not executed
+- **Ramachandran plot results:** 96.8% of all residues were found in favored regions and 99.8% of all residues in alloweed regions. Only one outlier existed (37-ALA). The results are acceptable but could have been better.
+
+Overall, the structural quality of the data is acceptable, but not very good. The B factor values are missing so the quality has poential to be even worse.
+
+#Biological and asymmetric units
+The biological and asymmetric units are identical.
+
+#Images
+![](image1.png)
+Figure 1: The Overall structure of the protein. The kinase residues are colored deepsalmon while the 3-phosphoglycerate (3-PG) and Adenosine Monophosphate (AMP) are colored cyan. The Magnesium Ion (MG) is colored green.
+
+![](imag2.png)
+Figure 2: A mesh diagram showing how the aforementioned ligands are positioned on the surface of the protein.
